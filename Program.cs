@@ -5,11 +5,12 @@ using QuestPDF.Markdown;
 
 namespace md2pdf
 {
+    // TODO: Consider adding command line options for page customization
     internal class Program
     {
         static void Main(string[] args)
         {
-            if (args.Length == 0)
+            if (args.Length != 1)
             {
                 Console.WriteLine("Usage: md2pdf <filename>");
                 return;
@@ -49,6 +50,8 @@ namespace md2pdf
                     page.Size(PageSizes.A4);
                     page.Margin(0.5f, Unit.Centimetre);
 
+                    // Example of adding a header
+                    //
                     // page.Header()
                     //    .Text("Technical Documentation")
                     //    .FontSize(16)
@@ -56,7 +59,7 @@ namespace md2pdf
                     //    .AlignCenter();
 
                     page.Content()
-                        .PaddingVertical(1, Unit.Centimetre)
+                        .PaddingVertical(0.5f, Unit.Centimetre)
                         .DefaultTextStyle(text =>
                         {
                             text.FontSize(12);

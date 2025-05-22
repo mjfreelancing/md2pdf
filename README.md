@@ -88,7 +88,7 @@ Drag a `.md` file onto `md2pdf.exe` in File Explorer; a PDF with the same name w
 
 ## License
 
-This project is licensed under the MIT License. See `LICENSE` for details.
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
 
 ## Third-Party Notices
 
