@@ -12,6 +12,7 @@ md2pdf is a simple cross-platform command-line application written in .NET that 
 
 - .NET SDK 9.0 or later (download from https://dotnet.microsoft.com/download)
 - Visual Studio Code (https://code.visualstudio.com/)
+- [C# for Visual Studio Code extension](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp) by Microsoft for IntelliSense and debugging
 
 ## Getting Started with VS Code
 
